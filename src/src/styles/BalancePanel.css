@@ -1,0 +1,92 @@
+.balance-card {
+  background: white;
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+  border: 1px solid #e2e8f0;
+}
+
+.balance-card h2 {
+  margin: 0;
+}
+
+.balance-description {
+  margin: 0.75rem 0 1.5rem;
+  color: #475569;
+}
+
+.cipher-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+  border: 1px dashed #cbd5f5;
+  background: #f8fafc;
+}
+
+.cipher-value {
+  font-family: 'IBM Plex Mono', SFMono-Regular, Consolas, monospace;
+  margin: 0.5rem 0 0;
+}
+
+.refresh-button {
+  border: none;
+  background: #0f172a;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+.refresh-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.decryption-area {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.decryption-info {
+  flex: 1;
+}
+
+.decrypted-value {
+  font-size: 1.75rem;
+  margin: 0.25rem 0 0;
+}
+
+.decrypt-button {
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.9rem;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.decrypt-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.balance-hints {
+  margin: 1.5rem 0 0;
+  padding-left: 1.2rem;
+  color: #475569;
+}
+
+.balance-hints li {
+  margin-bottom: 0.4rem;
+}
+
+.muted {
+  color: #94a3b8;
+}
