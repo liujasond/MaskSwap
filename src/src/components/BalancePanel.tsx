@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useEthersSigner } from '../hooks/useEthersSigner';
 import { useZamaInstance } from '../hooks/useZamaInstance';
-import { CUSDT_ADDRESS, MASK_SWAP_ADDRESS } from '../config/contracts';
+import { CUSDT_ADDRESS } from '../config/contracts';
 import { formatCusdt, shortHex } from '../utils/format';
 import '../styles/BalancePanel.css';
 
